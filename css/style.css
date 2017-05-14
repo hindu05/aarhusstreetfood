@@ -1,0 +1,364 @@
+
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline|Open+Sans|Roboto+Condensed');
+@font-face {
+    font-family: myanmar;
+    src: url(../fonts/MyanmarMN.ttf);
+}
+@font-face {
+    font-family: enge;
+    src: url(../fonts/engebrechtre-ex-bd.otf);
+}
+@font-face {
+    font-family: "Aerodynamic";
+    src: url("../fonts/Aerodynamic.otf");
+}
+@font-face {
+    font-family: "Aerodynamic";
+    src: url("../fonts/Aerodynamic-Bd.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Aerodynamic";
+    src: url("../fonts/Aerodynamic-Obl.otf");
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Aerodynamic";
+    src: url("../fonts/Aerodynamic-BdObl.otf");
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	font-size: 16px;	
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+a {
+	color:#000;
+}
+/*NAVIGATION*/
+#navigation {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+nav {
+	width: 100%;
+}
+#navigation ul {
+	display: inline-block;
+	
+}
+#navigation ul li {
+	display: inline-block;
+	padding: 0;
+	vertical-align: bottom;
+	margin-left: 20px;
+}
+#navigation ul li:nth-child(2) {
+	padding-left: 20px;
+}
+#navigation ul li a {
+	font: bold 3em 'Londrina Outline', cursive;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+    display: inline-block;
+    border-bottom: 7px solid transparent;    
+    transition: 0.3s ease;
+    white-space: nowrap;
+    
+    width: 1%;
+}
+#navigation ul li a:hover {
+	font-family: 'Londrina Outline', cursive;
+  	border-bottom: 7px solid #c85239; 
+	width: 105%;
+	color: #c85239;
+    
+}
+#logo {
+	width: 90px;
+	display: inline;
+}
+
+/*SLIDESHOW*/
+header {
+	padding-right: 0;
+	  overflow-x: hidden;
+	  height: 467px;
+}
+.slider{
+  width:100%;
+  max-height: 420px;
+  margin: auto;
+  text-align: center;
+  padding:0;
+  padding-right: 0;
+  color:white;
+
+}
+.slider img{
+	max-height: 420px;
+	display: block;
+	margin: auto;
+	padding-right: 15px;
+	box-shadow: 0 0px 5px 2px rgba(0,0,0,0.2);
+}
+ .parent-slide{
+ 	padding:15px;
+ }
+ .slick-dots {
+ 	bottom: -35px;
+ 	position: absolute;
+ 	display: inline-block;
+ 	left: 50%;
+ 	margin-left: -100px;
+
+}
+ .slick-dots li {
+ 	height: 10px;
+ 	width: 10px;
+ 	background-color: #fff;
+ 	border: 1px solid #111;
+ 	border-radius: 100%;
+ }
+ .slick-dots .slick-active {
+ 	background-color: #111;
+ }
+.slide {
+		transition: all 300ms ease-in-out 0ms;
+		filter: blur(2px) grayscale(40%);
+}
+.slick-center {
+	filter: blur(0);
+}
+/*SLIDESHOW END*/
+
+/*SORTING KITCHENS*/
+#sortingarea {
+	padding: 30px 0;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	margin: 0 auto 50px auto;
+}
+h1 {
+	font: bold 3em Roboto Condensed, Courier;
+	letter-spacing: 5px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 65px;
+}
+#sorting {
+	text-align: left;
+	outline: none;
+	color: #000;
+	background-color: #fff;
+	border: none;
+	padding: 5px 15px;
+	width: 90%;
+	max-width: 350px;
+	font: bold 20px Lucida Sans Unicode, Courier;
+	border-bottom: 4px solid black;
+	text-transform: uppercase;
+}
+select:active, select:hover, select, option:active, option:hover, option {
+	background-color: #fff;
+	outline: none;
+}
+
+.kitchen {
+	padding: 0;
+	padding-bottom: 50px;
+}
+.kitchenitem {
+	padding: 5px 5px 20px 5px;
+}
+.kitchenitem p {
+
+}
+.kitchenitem img {
+	width: 100%;
+	text-align: center;
+}
+.kitchenitem h3 {
+	
+	white-space: nowrap;
+	text-overflow: hidden;
+	font: bold 3em;
+	font-family: enge, Arial;
+	
+	font-weight: bold;
+	line-height: 0.05;
+}
+
+.kitchenitem:hover h3 {
+	color: #c85239;
+}
+/*SORTING KITCHENS END*/
+/*UNDERSIDE KITCHENS*/
+
+.profilesome a img {
+	width: 44px;
+	
+	display: inline-block;
+	border-radius: 10px;
+
+}
+.profilesome {
+	text-align: center;
+	margin: 50px 0;
+}
+
+/*kitchentemp*/
+.profile {
+	text-align: center;
+}
+
+
+.profile h1 {
+	margin-bottom: 20px;
+}
+.profiletext {
+	text-align: left;
+}
+.profiletext span {
+	text-transform: uppercase;
+	font-size: 0.75em;
+	color: #aaa;
+	font-weight: bold;
+}
+.content h2 {
+	font-size: 2em;
+	font-family: enge;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.content {
+	padding: 0;
+}
+.profile img {
+	width:100%;
+	display: inline-block;
+	box-shadow: 5px 5px 5px 0 rgba(0,0,0,.0);
+}
+.breadcrumb {
+	margin-top: 0px;
+	padding-right: 0px;
+	-o-transform: rotate(270deg);
+	writing-mode: tb-rl;
+	background-color: rgba(0,0,0,0);
+	display: inline-block;
+	text-transform: uppercase;
+	font: bold 1em Roboto Condensed, Arial;
+	z-index:9;
+	color: #aaa;
+	line-height: 25px;
+	
+}
+
+#omos {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+/*FOOTER*/
+.some {
+
+	text-align: center;
+
+}
+.some img {
+	width: 54px;
+	margin: 10px 5px;
+	border-radius: 7px;
+	transition: all 100ms ease-in-out;
+	display: inline-block;
+}
+.some img:hover {
+	transform: scale(1.05,1.05);
+	box-shadow: 5px 5px 5px 0 rgba(0,0,0,.5);
+}
+.map p{
+	text-align: center;
+}
+footer iframe {
+	margin: 20px 0 10px 0;
+	border: 1px solid black;
+	padding-bottom: 1px;
+	filter: saturate(50%);
+}
+
+#footwrap {
+	background: #eee;
+	padding: 0;
+	box-shadow: -5px -5px -5px 0 rgba(0,0,0,.5);
+}
+footer {
+	padding: 50px 0;
+	
+}
+footer div {
+	height: 100%;
+}
+footer h2 {
+	font-family: Roboto Condensed, Courier;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+}
+#skyline {
+	width: 100%;
+}
+
+
+/*MEDIA QUEIRES /// RESPONSIVENESS */
+ @media (max-width:1050px){
+	#navigation ul {
+		margin-left: 35px;
+	}
+	#navigation ul li a {
+		font: bold 2.1em 'Londrina Outline', cursive;
+		}
+}
+@media (max-width: 992px){
+	.slick-dots {
+	 	
+ 	}
+ 	.slider img{
+	max-height: 390px;
+	}
+}
+ @media (max-width:768px){
+	header {
+		height: 367px;
+	}
+	.slick-dots {
+	 	 left: 0%;
+ 		margin-left: 0px;
+ 	}
+ 	.slider img{
+	max-height: 320px;
+	}
+}
+@media (max-width:480px){
+	body {
+		font-size: 8px;
+	}
+	header {
+		height: 317px;
+	}
+
+	 	
+ 	.slider img{
+	max-height: 270px;
+	}
+}
