@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +10,14 @@
 <title>Restaurant og café | Aarhus Street Food</title>
 <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
 <!-- Bootstrap -->
-<link href="css/reset.css" rel="stylesheet">
+
 <link href="css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 <link href="css/style.css" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Condensed|Londrina+Outline|Londrina+Solid" rel="stylesheet">
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -29,36 +29,32 @@
 <?php include 'header.php';?>
 
 <header>
-<div class="slider">
-  <div class="slide">
-    <img src="img/front2.jpg" alt="" class="img-responsive" />
-  </div>
-  <div class="slide">
-    <img src="img/front1.jpg" alt="" class="img-responsive" />
-  </div>
-  <div class="slide">
-    <img src="img/front3.jpg" alt="" class="img-responsive" />
-  </div>
-    <div class="slide">
-    <img src="img/front4.jpg" alt="" class="img-responsive" />
-  </div>
-  <div class="slide">
-    <img src="img/front5.jpg" alt="" class="img-responsive" />
-  </div>
-  <div class="slide">
-    <img src="img/front.jpg" alt="" class="img-responsive" />
-  </div>
-    <div class="slide">
-    <img src="img/front6.jpg" alt="" class="img-responsive" />
-  </div>
-</div>
-
-	<!--div id="heroimg"></div-->
+	<div class="slider">
+	  <div class="slide">
+	    <img src="img/front2.jpg" alt="" class="img-responsive" />
+	  </div>
+	  <div class="slide">
+	    <img src="img/front1.jpg" alt="" class="img-responsive" />
+	  </div>
+	  <div class="slide">
+	    <img src="img/front3.jpg" alt="" class="img-responsive" />
+	  </div>
+	    <div class="slide">
+	    <img src="img/front4.jpg" alt="" class="img-responsive" />
+	  </div>
+	  <div class="slide">
+	    <img src="img/front5.jpg" alt="" class="img-responsive" />
+	  </div>
+	  <div class="slide">
+	    <img src="img/front.jpg" alt="" class="img-responsive" />
+	  </div>
+	    <div class="slide">
+	    <img src="img/front6.jpg" alt="" class="img-responsive" />
+	  </div>
+	</div>
 </header>
 <div class="clearfix"></div>
-
 <section class="kitchen col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
-
 	<div id="sortingarea">
 		<h1>Autentisk mad med inspiration fra hele verden</h1>
 		<select id="sorting">
@@ -70,11 +66,11 @@
 			<option value="laktosefri">Laktosefri</option>		
 		</select>
 	</div>
-
 	<div class="kitchenitem mad col-md-4 col-lg-3 col-sm-6">
-		<a href="Kitchens/americanstreetkitchen.php" title="American Street Kitchen" target="_self"><img src="img/kitchens/american1.jpg">
-		<h3>American Street Kitchen</h3>
-		<p>All american street food!</p>
+		<a href="Kitchens/americanstreetkitchen.php" title="American Street Kitchen" target="_self">
+			<img src="img/kitchens/american1.jpg">
+			<h3>American Street Kitchen</h3>
+			<p>All american street food!</p>
 		</a>
 	</div>
 	<div class="kitchenitem mad col-md-4 col-lg-3 col-sm-6">
@@ -96,7 +92,7 @@
 		</a>
 	</div>
 		<div class="kitchenitem vegetar mad col-md-4 col-lg-3 col-sm-6">
-		<a href="Kitchens/Thefrenchcorner.php" title="thefrenchcorner" target="_self"><img src="img/kitchens/frenchcorner1.jpg">
+		<a href="Kitchens/thefrenchcorner.php" title="thefrenchcorner" target="_self"><img src="img/kitchens/frenchcorner1.jpg">
 		<h3>The French Corner</h3>
 		<p>Klassiske galettes og søde crepes</p>
 		</a>
@@ -174,7 +170,7 @@
 		</a>
 	</div>
 
-
+	<button id="showmore">Vis alle køkkener</button>
 
 	</div>
 </section>
