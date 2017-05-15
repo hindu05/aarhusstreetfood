@@ -72,3 +72,41 @@ $(document).on('change','#sorting',function(){
 		}
 	}
 });
+
+//Vis flere funktionen i Køkkener
+	//set variabel globalt så den kan bruges i flere funktioner.
+	var firstFive = $('.kitchenitem').slice(0,6);
+
+function showLess() {
+	//gem alle andre køkkener end de første 5 og hvis "showmore" knappen
+	$('.kitchenitem').not(firstFive).hide();
+	$('#showmore').show();
+}
+
+$(document).ready(function() {
+	if ($(window).width() < 768) {
+	//call function
+	showLess();
+}
+});
+$(window).resize(function() {
+	if ($(window).width() < 768) {
+	//call function
+	showLess();
+}
+});
+//"showmore" knappen
+$('#showmore').click(function(){
+	$('.kitchenitem').not(firstFive).show();
+	$('#showmore').hide();
+});
+
+//*stop "showLess" funktion hvis en sortering er valgt
+$(document).on('change','#sorting',function(){
+//hvis ikke alt er valgt
+	if($(this).not.val()==1) {
+	   		$('#showmore').disable();
+	   		showLess().disable();
+
+}
+});
