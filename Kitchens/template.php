@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,27 +10,31 @@
 <title>Template | Aarhus Street Food</title>
 <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico">
 <!-- Bootstrap -->
-<link href="../css/reset.css" rel="stylesheet">
 <link href="../css/bootstrap.css" rel="stylesheet">
 <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 <!--include header-->
 <?php include 'header.php';?>
-<hr class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2">
+<hr class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 hidden-xs">
 <div class="clearfix"></div>
 <section class="profile">
-	<h1>Template</h1>
-	<div class="breadcrumb col-xs-1 col-xs-offset-1 col-sm-offset-1 col-sm-1 col-md-offset-2 col-md-1 col-lg-offset-2 col-lg-1">
+	<h1 class="hidden-xs">Template</h1>
+	<div class="breadcrumb hidden-xs col-sm-offset-1 col-sm-1 col-md-offset-2 col-md-1 col-lg-offset-2 col-lg-1">
 		<a href="../index.php">Køkkener / </a>Template
 	</div>
-	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 content">
-			
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 content">
 		<img class="img-responsive" alt="template hero-billede" src="../img/kitchens/foodsteps1.jpg">	
+		<h1 class="visible-xs xs-h1">Template</h1>
 		<h2>header / brødtekst</h2>	
-		<article class="profiletext col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+		<article class="profiletext col-md-12">
 			
-			<p></p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			<p></p>
 			<p></p>
 
@@ -49,10 +53,9 @@
 <!--include footer-->
 <?php include 'footer.php';?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.1.1.min.js"></script>
+<script src="../js/jquery-3.1.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/custom.js"></script>
 </body>
 </html>

@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Oplev ægte street food i Aarhus med mad og drikke fra mere end 30 gadekøkkener og flere barer. Besøg Aarhus Street Food på rutebilstationen i hjertet af Aarhus.">
-<meta name="keywords" content="Aarhus, street food, Mokkahouse, mad, drikke, spisested">
+<meta name="keywords" content="Aarhus, street food, Expat Meal Indian Cousine, mad, drikke, spisested">
 <meta name="author" content="Andreas Nielsen, Emma Schumacher, Mathilde Gladov, Michael Rønne">
-<title>Mokkahouse | Aarhus Street Food</title>
+<title>Expat Meal Indian Cousine | Aarhus Street Food</title>
 <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico">
 <!-- Bootstrap -->
 <link href="../css/bootstrap.css" rel="stylesheet">
@@ -19,25 +19,22 @@
 <hr class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 hidden-xs">
 <div class="clearfix"></div>
 <section class="profile">
-	<h1 class="hidden-xs">Mokkahouse</h1>
+	<h1 class="hidden-xs">Expat Meal Indian Cousine</h1>
 	<div class="breadcrumb hidden-xs col-sm-offset-1 col-sm-1 col-md-offset-2 col-md-1 col-lg-offset-2 col-lg-1">
-		<a href="../index.php">Køkkener / </a>Mokkahouse
+		<a href="../index.php">Køkkener / </a>Expat Meal Indian Cousine
 	</div>
 	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 content">
-			
-		<img class="img-responsive" alt="Mokkahouse hero-billede" src="../img/kitchens/mokkahouse.jpg">	
-		<h1 class="visible-xs xs-h1">Mokkahouse</h1>
-		<h2>Vi laver virkelig god kaffe</h2>	
+		<img class="img-responsive" alt="Expat Meal Indian Cousine hero-billede" src="../img/kitchens/foodsteps1.jpg">	
+		<h1 class="visible-xs xs-h1">Expat Meal Indian Cousine</h1>
+		<h2>Velduftende og aromatisk - autentisk indisk mad</h2>	
 		<article class="profiletext col-md-12">
 			
-			<p>Vi er nogle hyggelige kaffenørder, som serverer specialkaffe med et rent udtryk, af høj kvalitet og til en pris alle har råd til. Vores kaffe er friskristet fra eget risteri i Tilst, hvor kaffe concierge Kenneth, ud over at riste, jagter de bedste kaffer fra hele kaffebæltet. Vores mission er at komme tæt på råvaren og få en direkte kontakt til kaffefarmerne, så vi i samarbejde har mulighed for at udvikle den bedste kop til dig.</p>
-			<p>Manden bag KaffeBaren hedder Rasmus Jordt. Han stillede op til DM i barista februar 2016 og fik en vanvittig fin 2. plads. Kort ridset op er Rasmus opvokset i Kenya med sine danske forældre, og han gik i skole midt i en kaffeplantage - den fødte kaffesnedker.</p>
-			<p>Udover kaffen byder vi på friskbagte boller, crossainter og sprøde macaroons</p>
+			<p>Butter Chicken, beef curry eller vegansk rajma.  Kig ned og smag på indien.</p>
 
 			<div class="clearfix"></div>
 			<div class="profilesome">
-				<a href="http://www.facebook.com/mokkahouse" title="Facebook"><img alt="facebooklogo" src="../img/icons/facebooklogo.png"></a>
-				<a href="https://www.mokkahouse.dk" title="hjemmeside"><img alt="WWW logo" src="../img/icons/www.png"></a>
+				<a href="https://www.facebook.com/template" title="Facebook"><img alt="facebooklogo" src="../img/icons/facebooklogo.png"></a>
+
 			</div>
 		</article>
 	</div>

@@ -10,25 +10,25 @@
 <title>NORD | Aarhus Street Food</title>
 <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico">
 <!-- Bootstrap -->
-<link href="../css/reset.css" rel="stylesheet">
 <link href="../css/bootstrap.css" rel="stylesheet">
 <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
 <!--include header-->
 <?php include 'header.php';?>
-<hr class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2">
+<hr class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 hidden-xs">
 <div class="clearfix"></div>
 <section class="profile">
-	<h1>NORD</h1>
-	<div class="breadcrumb col-xs-1 col-xs-offset-1 col-sm-offset-1 col-sm-1 col-md-offset-2 col-md-1 col-lg-offset-2 col-lg-1">
+	<h1 class="hidden-xs">NORD</h1>
+	<div class="breadcrumb hidden-xs col-sm-offset-1 col-sm-1 col-md-offset-2 col-md-1 col-lg-offset-2 col-lg-1">
 		<a href="../index.php">Køkkener / </a>NORD
 	</div>
-	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-8 content">
+	<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 content">
 			
-		<img class="img-responsive" alt="NORD hero-billede" src="../img/kitchens/nord2.jpg">	
-		<h2>Fastfood i nye klæder!</h2>	
-		<article class="profiletext col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+		<img class="img-responsive" alt="NORD hero-billede" src="../img/kitchens/nord2	.jpg">	
+		<h1 class="visible-xs xs-h1">NORD</h1>
+		<h2>Fastfood i nye klæder</h2>	
+		<article class="profiletext col-md-12">
 			
 			<p>Rugbrødet skal ud i verden, og NORD brænder for nordisk inspireret fastfood i nye klæder, der giver den nysgerrige et større indblik i et sundere
 fastfoodunivers.</p>
@@ -45,6 +45,7 @@ Rugbrødet skal ud i verden – Kom forbi, få en bid og du vil være enig!</p>
 			<div class="profilesome">
 				<a href="https://www.facebook.com/NORDGourmet/?fref=ts" title="Facebook"><img alt="facebooklogo" src="../img/icons/facebooklogo.png"></a>
 				<a href="https://www.instagram.com/nord_gourmet/" title="Instagram"><img alt="Instagram logo" src="../img/icons/instagram.png"></a>
+				<a href="https://www.nordgourmet.com" title="NORD hjemmeside"><img alt="WWW logo" src="../img/icons/www.png"></a>
 
 			</div>
 		</article>
@@ -55,10 +56,10 @@ Rugbrødet skal ud i verden – Kom forbi, få en bid og du vil være enig!</p>
 <!--include footer-->
 <?php include 'footer.php';?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.1.1.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="../js/jquery-3.1.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/custom.js"></script>
 </body>
 </html>
